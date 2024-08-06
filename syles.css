@@ -8,6 +8,11 @@ body {
     z-index: 1;
 }
 
+* {
+                cursor: url('https://i.ibb.co/Pm0LVth/cursor.png'), auto; /* استخدم مسار الصورة الصحيح */
+
+}
+
 .stars {
     position: absolute;
     width: 100%;
@@ -106,6 +111,11 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     line-height: 1.5; /* زيادة ارتفاع الأسطر لتحسين قراءة النص */
      font-weight: bold;
 }
+
+
+   a {
+        color: inherit; /* Inherit color from parent <p> */
+    }
 
 button {
  background: rgba(181, 209, 255, 0.1);
