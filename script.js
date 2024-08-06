@@ -30,7 +30,7 @@ function createStar() {
     }, 9000);
 }
 
-setInterval(createStar, 400);
+setInterval(createStar, 600);
 
 const starStyle = document.createElement('style');
 starStyle.innerHTML = `
